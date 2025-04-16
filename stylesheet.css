@@ -1,0 +1,47 @@
+h1 {
+    color: rgb(107,24,255);
+    font-family: "Roboto Mono", monospace;
+    font-size: 5em;
+}
+
+h2 {
+    color: rgb(107,24,255);
+}
+
+ul#mainNav {
+    list-style-type: none;
+}
+
+img {
+        width: 35%;
+}
+
+html{
+    background-color:rgb(182, 94, 255);
+    color: rgb(107, 24, 255);
+    font-family: "Roboto Mono", monospace;
+    background-image: url("rock.jpg")
+    
+}
+
+hr{
+    color: rgb(107,24,255);
+
+}
+
+body{
+    text-align: center;
+}
+
+
+li a:link{
+    color:rgb(107,24,255);
+}
+
+/*
+a:hover { 
+    color: rgb(255, 255, 255);
+}
+*/
+
+background-blend-mode: multiply;
