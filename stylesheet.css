@@ -1,3 +1,21 @@
+html{
+    background-color:rgb(189, 187, 248);
+    background-image: url("bubbles.png");
+    background-repeat: round;
+color: rgb(107, 24, 255);
+font-family: "Roboto Mono", monospace;
+line-height: 150%;
+position:center;
+margin:auto;
+}
+
+body{
+text-align: left;
+width:70%;
+position:center;
+margin:auto;
+}
+
 h1 {
     color: rgb(107,24,255);
     font-family: "Roboto Mono", monospace, sans-serif;
@@ -9,14 +27,12 @@ h2 {
     color: rgb(107,24,255);
     font-size: 1.5em;
     text-transform: uppercase;
-
 }
 
 h3 {
     color: rgb(107,24,255);
     font-size: 0.5 em; 
     font-weight: 250;
-   
 }
 
 ul#mainNav {
@@ -31,28 +47,7 @@ img {
 
 hr{
     color: rgb(107,24,255);
-
 }
-
-html{
-    background-color:rgb(189, 187, 248);
-    color: rgb(107, 24, 255);
-    font-family: "Roboto Mono", monospace;
-    /*
-    background-image: url("rock.jpg")
-    */
-    line-height: 150%;
-    position:center;
-    margin:auto;
-}
-
-body{
-    text-align: left;
-    width:70%;
-    position:center;
-    margin:auto;
-}
-
 
 li a:link{
     color:rgb(107,24,255);
@@ -65,8 +60,3 @@ li a:visited{
 li a:hover{
     color:rgb(166, 33, 113);
 }
-/*
-a:hover { 
-    color: rgb(255, 255, 255);
-}
-*/
