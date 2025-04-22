@@ -6,7 +6,7 @@ html{
     background-size: 10%;
 color: rgb(107, 24, 255);
 font-family: "Roboto Mono", monospace;
-line-height: 150%;
+line-height: 180%;
 position:center;
 margin:auto;
 }
@@ -23,6 +23,8 @@ h1 {
     font-family: "Roboto Mono", monospace, sans-serif;
     font-size: 5em;
     text-decoration-line: underline;
+    line-height: 170%;
+
 }
 
 h2 {
@@ -46,9 +48,13 @@ img {
         width: 35%;
         height:auto;
 }
-
+/*
 hr{
     color: rgb(107,24,255);
+}
+*/
+hr{
+    border-color: rgb(107, 24, 255);
 }
 
     li a:link{
@@ -62,3 +68,5 @@ hr{
     li a:hover{
         color:rgb(166, 33, 113);
     }
+
+    
