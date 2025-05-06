@@ -8,7 +8,7 @@ color: rgb(107, 24, 255);
 font-family: "Roboto Mono", monospace;
 line-height: 180%;
 position:center;
-margin:auto;
+margin:0; padding: 0;
 }
 
 body{
@@ -16,6 +16,14 @@ text-align: left;
 width:70%;
 position:center;
 margin:auto;
+}
+
+#wrapper {
+     width: 80%; margin: auto; 
+    } 
+
+header{
+
 }
 
 h1 {
