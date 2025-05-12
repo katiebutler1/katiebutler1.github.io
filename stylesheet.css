@@ -102,4 +102,19 @@ hr{
         color:rgb(166, 33, 113);
     }
 
-    
+    @media only screen and (max-width: 480px) {} /* smaller than mobile */ 
+    @media only screen and (max-width: 979px) {} /* smaller than tablet */ 
+    @media only screen and (max-width: 1200px) {} /* smaller than desk */ 
+
+    #wrapper { width: 80%; margin: auto; } 
+    .column { 
+        width: 33.33%; 
+        float: left; 
+        margin: 10%; }
+        
+     @media only screen and (max-width: 480px) { 
+        .column-6 { 
+            width: 100%; 
+            float: left; 
+            margin: 0%; 
+        } } 
