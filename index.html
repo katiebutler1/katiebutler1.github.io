@@ -1,33 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="stylesheet.css" type="text/css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <title>Exercise 1</title>
-</head>
-    <body>
-        <div id="wrapper">
-        <article>
-            <h1>KATIE BUTLER</h1>
-            <h2>DSGN 372: Digital Design 2</h2>
-            <h2>Spring 2025</h2>
-        <nav>
-                <ul id="mainNav">
-                    <li><a href="https://www.figma.com/proto/ic0c5KxDay4zATRF19smrW/FISH-redesign?page-id=36%3A56&node-id=50-25&viewport=189%2C92%2C0.63&t=TuxXDHHpwG5d6rn2-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=50%3A5">Project 1 - Web</a></li>
-                    <li><a href= "https://www.figma.com/proto/ic0c5KxDay4zATRF19smrW/FISH-redesign?page-id=36%3A56&node-id=55-292&viewport=280%2C-1018%2C0.24&t=i7esIh9CpAEA50fm-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=55%3A277&show-proto-sidebar=1">Project 1 - Mobile</a></li>
-                    <li><a href="FISH Case Study - Katie Butler.pdf">Project 1 Process</a></li>
-                    <li><a href="#">Project 2</a></li>
-                    <li><a href="#">Project 2 Process</a></li>
+    <head>
+        <meta charset="UTF-8">
+        <title>Katie's Sandbox</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <!-- CSS links -->
+        <link href= "css/normalize.css" type="text/css" rel = "stylesheet">
+        <link href= "css/skeleton.css" type="text/css" rel = "stylesheet">
+        <link href="customcss.css" type="text/css" rel="stylesheet">
+
+            <!-- Google font links -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="container">
+
+    <header class = "row">
+                <h1>KATIE BUTLER</h1>
+                <h4>DSGN 372: Digital Design 2</h4>
+                <h4>Spring 2025</h4>
+            <nav>
+                 <ul id="mainNav">
+                     <li><a href="https://www.figma.com/proto/ic0c5KxDay4zATRF19smrW/FISH-redesign?page-id=36%3A56&node-id=50-25&viewport=189%2C92%2C0.63&t=TuxXDHHpwG5d6rn2-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=50%3A5">Project 1 - Web</a></li>
+                     <li><a href= "https://www.figma.com/proto/ic0c5KxDay4zATRF19smrW/FISH-redesign?page-id=36%3A56&node-id=55-292&viewport=280%2C-1018%2C0.24&t=i7esIh9CpAEA50fm-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=55%3A277&show-proto-sidebar=1">Project 1 - Mobile</a></li>
+                     <li><a href="projects/FISH Case Study - Katie Butler.pdf">Project 1 Process</a></li>
+                     <li><a href="#">Project 2</a></li>
+                     <li><a href="#">Project 2 Process</a></li>
                 </ul>
-        </nav>
+            </nav>
+
+    </header>
+
+    <article class="row">
+        <div class = "one-third column">
+            <img class="u-full-width" src="images/brights.png"/>
+        </div>  
+
+        <div class="two-thirds column">
+            <p>
+                <h5>
+                    <em>Hi, I’m Katie! </em>I’m a Seattle-based Designer pursuing a Design BFA at Western Washington University in Bellingham, WA. Now in my Junior year, I have found a love for many aspects of design with specific interest in editorial print, motion, and UI. I love a hands-on approach and taking things outside of the computer for personal, tactile touches. 
+                    <br>
+                    <br>Outside of design, I'm a climber, analog media devotee, 90s TV fan, and music obsessed- whether it be sleuthing out shows or manning the board for my favorite radio station. (Ask me why you should listen to the radio...).  
+                    <br>
+                    <br>My favorite movies are The Shawshank Redemption, The Graduate, and But I’m A Cheerleader. These have been top of my list for the last 5 years or so, and I’m not sure when that will change. Yesterday I watched Wallace and Gromit’s A Vengeance Most Fowl and it was really good, but maybe not in my top 3 films ever watched. I love Claymation though; seeing fingerprints on the characters as they move reminds you of how special and handmade it is as a process. 
+                </h5>
+            </p>
+        </div>
+    </article>
+
+    <br><br>
+
+    <div class="row">
+        <div class="six columns">
+            <h2>What I'm Spinnin'</h2>
+
+            <p> 
+                Sixteen Days/Gathering Dust - This Mortal Coil (1980)
+                <br>
+                
+
+     <!--
+        <article>
         <div class="columns col-8">
-         <img src="brights.png">
-         </div>
+        </div>
         <p>
             <div class="columns col-6">
             <h3>
@@ -45,6 +85,8 @@
         </p>
         </div>
         </article>
+    -->
+
     <footer>
         <div class="columns col-4">
             <hr>
