@@ -1,13 +1,28 @@
 html{
     background-color:rgb(0, 0, 0);
+    background-image: url("images/thresh.png")
 }
 
 body{
-    color: rgb(144, 29, 245)
+    color: rgb(255, 0, 0);
+    font-family: "Share Tech", sans-serif;
 }
 
-.jacquard-12-regular {
-  font-family: "Jacquard 12", system-ui;
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    text-align: inline;
+}
+
+li{
+display: inline-block;
+}
+
+hr{
+    border-color: rgb(255, 0, 0);
 }
