@@ -16,9 +16,6 @@ body{
 
 .texturina{
   font-family: "Texturina", serif;
-  font-optical-sizing: auto;
-  font-weight: <800>;
-  font-style: normal;
 }
 
 ul {
@@ -40,6 +37,7 @@ padding-top: 3em;
 }
 
 img{
+    padding-top: 2.5em;
   transition: transform 1s;
   transition-duration: 2s;
 }
