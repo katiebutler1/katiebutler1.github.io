@@ -14,6 +14,13 @@ body{
   font-style: normal;
 }
 
+.texturina{
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: <800>;
+  font-style: normal;
+}
+
 ul {
     list-style-type: none;
     text-align: inline;
@@ -26,4 +33,63 @@ display: inline-block;
 hr{
     border-color: rgb(255, 0, 0);
 }
+
+header{
+line-height: 1.5em;
+padding-top: 3em;
+}
+
+img{
+  transition: transform 1s;
+  transition-duration: 2s;
+}
+
+img:hover {
+  transform: scale(1.5);
+}
+
+
+.wave-text span {
+    display: inline-block;
+    font-size: 8rem;
+    animation: wave 8s ease-in-out infinite;
+}
+
+.wave-text span:nth-child(1) {
+    animation-delay: 0.2s;
+}
+.wave-text span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+.wave-text span:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.wave-text span:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+h1,h2{
+    font-family:"Texturina"
+}
+
+ li a:link{
+        color:rgb(34, 0, 255);
+    }
+
+    li a:visited{
+        color:rgb(149, 0, 255);
+    }
+
+    li a:hover{
+        color:rgb(30, 255, 0);
+    }
 
